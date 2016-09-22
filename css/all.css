@@ -1,0 +1,216 @@
+@charset "UTF-8";
+/* line 2, ../src/scss/common/_base.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,
+input, textarea, select, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 23, ../src/scss/common/_base.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 27, ../src/scss/common/_base.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 32, ../src/scss/common/_base.scss */
+b {
+  font-weight: normal;
+}
+
+/* line 36, ../src/scss/common/_base.scss */
+i, em {
+  font-style: normal;
+}
+
+/* line 40, ../src/scss/common/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 44, ../src/scss/common/_base.scss */
+form {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 49, ../src/scss/common/_base.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'microsoft yahei', Verdana, Arial, Helvetica, sans-serif;
+}
+
+/**全局样式, 微软雅黑**/
+/* line 55, ../src/scss/common/_base.scss */
+html {
+  height: 100%;
+}
+
+/* line 59, ../src/scss/common/_base.scss */
+body {
+  font-family: 'microsoft yahei', Verdana, Arial, Helvetica, sans-serif;
+  width: 100%;
+  color: #424242;
+}
+
+/* line 66, ../src/scss/common/_base.scss */
+button {
+  font-family: 'microsoft yahei', Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* line 70, ../src/scss/common/_base.scss */
+input, select {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+/* line 75, ../src/scss/common/_base.scss */
+input, select, textarea, a, li, div {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+/* line 80, ../src/scss/common/_base.scss */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+
+/* line 86, ../src/scss/common/_base.scss */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* line 91, ../src/scss/common/_base.scss */
+input::-webkit-input-placeholder,
+input:-moz-placeholder,
+input::-moz-placeholder,
+input:-ms-input-placeholder {
+  color: #b1b4b5;
+}
+
+/* line 98, ../src/scss/common/_base.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 101, ../src/scss/common/_base.scss */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+/* line 107, ../src/scss/common/_base.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/*去除a标签外边框*/
+/* line 111, ../src/scss/common/_base.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 115, ../src/scss/common/_base.scss */
+.error {
+  color: #FF5454;
+}
+
+/* line 119, ../src/scss/common/_base.scss */
+.hide {
+  display: none !important;
+}
+
+/* line 123, ../src/scss/common/_base.scss */
+.fl {
+  float: left;
+}
+
+/* line 127, ../src/scss/common/_base.scss */
+.fr {
+  float: right;
+}
+
+/* line 131, ../src/scss/common/_base.scss */
+.orange {
+  color: orange;
+}
+
+/* line 135, ../src/scss/common/_base.scss */
+.red {
+  color: red;
+}
+
+/* line 139, ../src/scss/common/_base.scss */
+.hide {
+  display: none;
+}
+
+/* line 143, ../src/scss/common/_base.scss */
+.txt-r {
+  text-align: right;
+}
+
+/* line 147, ../src/scss/common/_base.scss */
+.txt-c {
+  text-align: center;
+}
+
+/* line 151, ../src/scss/common/_base.scss */
+html, body {
+  background: #F7F7FB;
+}
+
+/* line 155, ../src/scss/common/_base.scss */
+body {
+  min-width: 320px;
+}
+
+/* line 159, ../src/scss/common/_base.scss */
+.container {
+  width: 720px;
+  min-height: 300px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px 2px #ccc;
+  overflow: hidden;
+  padding-bottom: 140px;
+}
+
+/* line 167, ../src/scss/common/_base.scss */
+.pd155 {
+  padding-bottom: 155px !important;
+}
+
+/* line 170, ../src/scss/common/_base.scss */
+.no-more-box {
+  text-align: center;
+  padding: 100px 0;
+  font-size: 35px;
+  color: #ccc;
+  display: none;
+}
